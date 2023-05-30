@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.backgroundImg{
+    background-image: url(../img/Ekran\ Görüntüsü\ \(19\).png);
+    width: 100%;
+    height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.navbar_esas{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.527);
+}
+.navbar_esas.activenavbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1B1F3B;
+    z-index: 55;
+}
+.rightNav ul{
+    display: flex;
+   
+}
+.rightNav a{
+    color: #bfc1ca86; 
+    text-decoration: none;
+}
+.rightNav li{
+   padding-left: 20px;
+
+}
+.button{
+    display: flex;
+    padding-left: 30px;
+    width: 170px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    padding-top: 8px;
+   color: #3855BE;
+    margin-left: 30px;
+    margin-top:-3px;
+    cursor: pointer;
+}
+.leftNav{
+    width: 40%;
+    padding-left: 240px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 1.5em;
+color: white;
+}
+.leftNav h3{
+    cursor: pointer;
+    width: 100px;
+}
+.rightNav{
+    margin-top: 10px;
+    width: 60%;
+    display: flex;
+    padding-left: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+/* navbar end */
+.main{
+    padding-top: 100px;
+    padding-left: 280px;
+    padding-right: 400px;
+   
+    margin: 0  104px 0 170px;
+    text-align: center;
+}
+.mainButton{
+    display: flex;
+}
+.mainButton1{
+    margin-left: 100px;
+    display: flex;
+    width: 180px;
+    height: 60px;
+    background-color: white;
+    color: #3855BE;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-top: 12px;
+    padding-left: 31px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.mainButton2{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 12px;
+    border-radius: 4px;
+    background-color:#0a1436;
+    color: white;
+    width: 150px;
+    height: 60px;
+    display: flex;
+    margin-left: 10px;
+    padding-left: 31px;
+    cursor: pointer;
+}
+/* main end */
+
+.lay2{
+    
+    width: 100%;
+    height: 2000px;
+    padding-left: 200px;
+    margin-bottom: 50px;
+}
+.lay21{
+  margin-top: 100px;
+ 
+}
+.lay2Head{
+    width: 900px;
+    text-align: center;
+    padding-top: 300px;
+    margin-left: 150px;
+  
+}
+.layLeft{
+    display: flex;
+}
+
+.layLeft img{
+    border-radius: 10px ;
+    width: 550px;
+    height: 330px;
+    border: 0.5px solid rgba(0, 0, 0, 0.13);
+}
+.layLeft img:hover{
+    box-shadow: 0.5rem 0.5rem 0 rgb(233 236 239 / 50%);
+    transform: translate3d(-4px,-4px,0) rotateZ(
+-1deg);
+}
+.layRight{
+    width: 800px;
+    height: 400px;
+   
+padding-left: 100px;
+}
+
+.text {
+    width: 400px;
+    display: block;
+}
+.text h2{
+    font-weight: 600;
+    font-size: 37px;
+}
+
+.info i{
+    width: 40px;
+    height: 40px;
+    font-size: 2em;
+    color: #C3CCED;
+}
+
+.box1{
+    display: flex;
+  font-weight: 500;
+}
+.box1 p{
+font-weight: 600;
+font-size: 20px;
+}
+.box2{
+    display: flex; 
+    font-weight: 500;
+    padding-top: 10px;
+}
+.box2 p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.box3{
+    font-weight: 500;
+    padding-top: 10px;
+    display: flex;
+}
+.box3 p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.text p{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.lay3{
+    width: 100%;
+    height: 2000px;
+    background-color:#F3F5FB;
+    margin-top: 3400px;
+}
+.lay3Head{
+    padding-top: 100px;
+    text-align: center;
+    width: 660px;
+    margin: auto;
+}
+.karusel{
+  padding-top: 70px;
+}
+.backgroundImg2{
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/Ekran\ Görüntüsü\ \(20\).png);
+}
+.backgroundImg2Text{
+    
+    padding: 200px 300px 0 800px;
+}
+.lay4{
+    width: 100%;
+    height: 630px;
+    margin-top: -350px;
+}
+.backgroundImg3{
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/Ekran\ Görüntüsü\ \(22\).png)
+}
+
+.lay4Text{
+    padding: 100px 900px 0 230px ;
+}
+.lay5{
+    width: 100%;
+    height: 200px;
+}
+.lay5Text{
+    text-align: center
+}
+.lay6{
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/Ekran\ Görüntüsü\ \(23\).png)
+}
+.lay7Img{
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    background-image: url(../img/Ekran\ Görüntüsü\ \(24\).png);
+}
+.lay7{
+    width: 100%;
+    height: 800px;
+   background-color: #3855BE;
+
+}
+.lay8{
+    width: 100%;
+    height: 400px;
+   background-color: #3855BE;
+
+}
+.lay8Box{
+    margin-top: -430px;
+    margin-left: 185px;
+    
+}
+.lay8Box1{
+    display: flex;
+    margin-bottom: 20px;
+}
+.lay8Box11{
+    cursor: pointer;
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    border-radius: 9px;
+    margin: 0 0 0 20px;
+   
+}
+.lay8Box11 img{
+    padding-top: 9px;
+   width: 350px;
+   height: 90px;
+}
+.lay8Box11:hover{
+    box-shadow: 0.5rem 0.5rem 0 rgb(233 236 239 / 60%);
+    transform: translate3d(-3px,-3px,0) rotateZ(
+-1deg);
+}
+.lay9{
+    text-align: center;
+    width: 100%;
+    height: 1200px;
+    background-color: white;
+}
+.lay9Text{
+    padding: 20px 340px 0 500px;
+}
+.lay9Text h1{
+    padding: 20px 150px 0 -100px;
+}
+.lay9Img{
+    margin-top: 100px;
+    left: 0;
+    width: 100%;
+    height: 750px;
+        background-image: url(../img/Ekran\ Görüntüsü\ \(35\).png);
+    background-size: cover;
+    background-size: 1700px;
+margin-left: -100px
+}
+.lay10{
+    width: 100%;
+    height: 500px
+}
+.link{
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    border-radius: 6px;
+    width: 700px;
+    height: 70px;
+   padding: 20px 0 0 30px;
+    margin: 10px 0 0 400px;
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+}
+.link a{
+    font-size: 20px;
+    color: black;
+     
+}
+.link i{
+
+    color: #3A57BF;
+}
+.link a:hover{
+color: #3A57BF;
+}
+.lay11{
+    width: 100%;
+    height: 611px;
+    background-size: 1400px;
+background-image: url(../img/Ekran\ Görüntüsü\ \(36\).png);
+}
+.lay11Text{
+    display: flex;
+    padding: 110px 0 0 250px;
+}
+.lay11Button{
+    display: flex;
+    text-align: center;
+   
+    padding-top: 15px;
+    padding-left: 27px;
+    width: 210px;
+    height: 60px;
+    background-color: white;
+border-radius: 5px;
+font-size: 19px;
+font-weight: 600;
+margin-top: 10px;
+margin-left: 200px;
+}
+.lay11Link{
+    padding: 110px 0 0 167px;
+
+    display: block
+}
+.lay11Link li{
+padding-top: 5px;
+font-size:17px;
+font-weight: 500;
+}
+.lay11Link a{
+    color:rgba(255, 255, 255, 0.356);
+    
+}
+.lay11Link a:hover{
+    color: white;
+    text-decoration: none;
+}
+.input{
+  margin: -98px 0 0 890px;
+}
+.input input{
+    width: 300px;
+    height: 35px;
+    border-radius: 3px;
+}
+.lay11Button2{
+    display: flex;
+    text-align: center;
+   
+    padding-top: 8px;
+    padding-left: 95px;
+    width: 300px;
+    height: 40px;
+    background-color: #2F48A0;
+  
+border-radius: 5px;
+font-size: 19px;
+font-weight: 600;
+margin-top: 10px;
+margin-left: 890px;
+}
+.lay11Button2 a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* animation start */
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+
+.p {
+   
+  border-right: solid 3px rgba(0,255,0,.75);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 15px;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Animation */
+.p {
+  animation: animated-text 4s steps(29,end) 3s 200 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 78px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
+/* animation end  */
